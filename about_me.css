@@ -7,5 +7,35 @@
     background: -webkit-linear-gradient(#eee, #82cad6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    margin:60px;
 }
 
+
+#aboutMeTop{
+    display:flex;
+    color:white;
+}
+
+#myBio{
+    margin:50px;
+}
+
+
+#aboutMeTopImage{
+    margin:20px;
+    padding:10px;
+    display:flex;
+    width:600px;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+    background: -webkit-linear-gradient(#9c9595, #b8b6b6);
+    border: 10px solid gray;
+}
+
+#aboutMeTopImage p{
+    padding:1px;
+    font-size:0.8em;
+    color:black;
+}
