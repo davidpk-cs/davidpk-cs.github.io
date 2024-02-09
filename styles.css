@@ -1,0 +1,113 @@
+.menuBar{
+    font-family:'Trebuchet MS', sans-serif;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+@media screen and (max-width: 760px){
+
+    .menuAnchor{
+        margin:10px;
+    }
+}
+
+.menuAnchor{
+
+    text-decoration: none;
+    color: white;
+}
+
+.menuLink:hover{
+
+    font-weight: bold;
+    
+    background: -webkit-linear-gradient(#eee, #1aa9c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#mainPageText{
+
+    padding-top:5%;
+    text-align: center;
+}
+
+#mainPagePortrait{
+    width:400px;
+    border-radius:50%;
+    
+    /*border-image: linear-gradient(to right, #eee, #96cad3);*/
+    border-style:solid;
+    border-width: 3px;
+    border-color:#96cad3
+
+}
+
+#mainPageContent{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:white;
+    font-size:1.5em;
+
+} 
+
+#mainPageMyName{
+    
+    font-weight: bold;
+    
+    background: -webkit-linear-gradient(#eee, #96cad3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:3em;
+    padding-bottom: 4%;
+
+}
+
+#mainPageBottomText{
+    max-width: 600px; /* Adjust the value according to your needs */
+    white-space: normal; /* or use word-wrap: break-word; */
+}
+
+.footer{
+    background: -webkit-linear-gradient(#a6bccf, #5389b5);
+    border-color:lightblue;
+    color:white;
+    padding-top:20px;
+}
+
+.imageLink{
+    margin:10px;
+}
+
+.footerLogos{
+    display:flex;
+    max-width: 200px;
+    justify-content:space-between;
+}
+
+.doubleFooterRow{
+    display:flex;
+    justify-content:space-between;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+#mainPageExploreButton{
+    background: -webkit-linear-gradient(#94aec5, #4480b2);
+    border-color:lightblue;
+    padding:20px;
+    margin-top:60px;
+    font-size:4.5em;
+    font-family:'Trebuchet MS', sans-serif;
+    color:white;
+    border-radius:40px;
+    margin-bottom:40px;
+}
+
+#mainPageExploreButton:hover{
+    background: -webkit-linear-gradient(#4480b2, #94aec5);
+}
