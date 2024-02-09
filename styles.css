@@ -111,3 +111,7 @@
 #mainPageExploreButton:hover{
     background: -webkit-linear-gradient(#4480b2, #94aec5);
 }
+
+.imageContainer{
+    text-align:center;
+}

@@ -13,8 +13,10 @@
 
 <script src="aboutScript.js"></script>
 
+</head>
 
-<head>
+
+<body id="projectPage">
 
     <div class="container shadow p-3 mb-5 rounded menuBar" id="projectMenuBar">
         <a class="menuAnchor" href="davidpk-cs.github.io"><h3 class="menuLink" id="projectMenuLink">Home</h3></a>
@@ -24,17 +26,102 @@
         <a class="menuAnchor" href="david-projects.html"><h3 class="menuLink" id="projectMenuLink">Projects</h3></a>
     </div>
 
-    <div id="#projectsIntro">
+    <div id="projectsIntro">
 
-        <h3>What I've Done</h3>
+        <h2>What I've Done</h2>
 
         <p>Over the past few years I've got to program with all kinds of languages and technologies.
-            Here are a few of the things I've done, school assignments and personal projects!
+            Here are a few of the things I've done, school assignments and personal projects! These aren't all
+            of them, and this page is not going to stay the same forever!
         </p>
+
+        <a href="github.com/davidpk-cs" id="githubQuestion"><p>Were you looking for my Github? Click Right Here!</p></a>
+    </div>
+
+    <div class = "projectShowcase">
+
+
+        <a class = "titleLinks" href="https://github.com/davidpk-cs/simple-bible-for-android"><h3>Simple Bible - A Lightweight Bible App</h3></a>
+
+        <p>The first Android App I finished, SimpleBible is now in closed testing on Google Play! The purpose of this app was to deliver a Bible application
+            that is lightweight, add-free, free to use, and fully offline without any quirks (like collecting your email). Despite the variety of Bible apps 
+            available on the Play Store, very few can check all 4 of those boxes. I wanted something simple and small, and figured there are other folks who are
+            down for an app like that too (turns out there are at least a few!). The app currently supports only the King James Version of the Bible. I do intend
+            on bringing other versions of the Bible that are in the public domain to it eventually.
+        </p>
+
+        <p>While this app served as a springboard for diving into Android development, I still have a few more plans for it before making a version 1.0 publically
+            available. In addition, my goal is to seek after books in the public domain and get them formatted to work with the reader I built for this app.
+        </p>
+
+        <div class = "imageContainer">
+            <img src="simple_bible.png" style="width:500px">
+            <p>Here is a look at early development of the Simple Bible App. It's designed to allow verse selection for things like highlighting etc, but I hadn't
+                quite made the text very good looking yet then.
+            </p>
+        </div>
+
+        
+
     </div>
 
 
-    <footer class="footer">
+    <div class = "projectShowcase">
+
+
+        <a class = "titleLinks" href="https://github.com/davidpk-cs/turing-machine-sim"><h3>Turing Machine Simulator</h3></a>
+
+        <p>Every since I took Automata Theory, I was fascinated with turing machines. I liked them so much so, that I built a simple to use turing
+            machine simulator. This turing machine simulator has its own language and it shows the cells and head as it moves around.
+        </p>
+
+        <p>This turing machine isn't a regular turing machine, but rather a variant, but it's quite close to a pure turing machine.
+        </p>
+
+        <div class = "imageContainer">
+            <img src="tm_sim.png" style="width:500px">
+            <p>If you can write a program to compute something, a turing machine can compute it too. If you CAN'T right a program for something, neither
+                can a turing machine.
+            </p>
+        </div>
+
+        
+
+    </div>
+
+
+    <div class="projectShowcase">
+
+        <h3>Other Projects I've Done</h3>
+
+        <p>I've racked up more projects over the past few years, and will be dropping more in this page with more details soon. But here's a sneak peak.</p>
+
+        <p>1. React Home Management Web Interface: For a school assignment, I got a chance to use react for the first time by creating a fake but functioning
+            home management app. It gave me crucial experience with using APIs and local storage to help me on the more complicated projects I am currently working
+            on.
+        </p>
+
+        <p>
+            2. Memory Verse Challenge Maker: When compiling a list of Bible verses, it can be quite tedious if you need to grab a lot of them. My Python based program
+            not only let's you grab all the verses you need without needing to copy and paste them anywhere, it also will automatically put them into a docx file for you.
+        </p>
+
+        <p>
+            3. Kernel Modules: Thanks to my operating systems class, I was able to get a feel for making some linux kernel modules for simulating a game of blackjack and a 
+            magic 8 ball in the kernel space.
+        </p>
+
+        <p>
+            4. Data Structures: In Data Structures, I had the chance to implement AVL trees, Hash Tables, Priority Queues, and other data structures using C++.
+        </p>
+    </div>
+
+    
+
+
+
+
+    <footer class="footer" id="projectsFooter">
 
         <div class="footerLogos">
             <a href="https://github.com/davidpk-cs"><img src = github_logo.png class = "imageLink" style="width:60px"></a>
@@ -47,4 +134,4 @@
 
     </footer>
 
-</head>
+</body>

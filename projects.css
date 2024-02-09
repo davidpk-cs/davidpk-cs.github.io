@@ -3,6 +3,7 @@
     font-weight: bold;
     
     background: -webkit-linear-gradient(#1a1919, #374346);
+
 }
 
 #projectMenuLink{
@@ -16,4 +17,75 @@
     background: -webkit-linear-gradient(#8d9b3c, #bde60b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#projectPage{
+    background: -webkit-linear-gradient(#c75454, #64110e);
+    color:white;
+}
+
+#projectsIntro{
+    text-align:center;
+    margin:100px;
+}
+
+#projectsIntro h2{
+    font-weight:bold;
+    text-align:center;
+    font-size:2.2em;
+}
+
+#projectsIntro p{
+    font-size:1.2em;
+}
+
+#githubQuestion {
+    text-decoration:none;
+    color:white;
+    font-style:italic;
+}
+#githubQuestion:hover{
+    color:gold;
+}
+
+#projectsFooter{
+
+    background:rgb(146, 71, 71);
+}
+
+.projectShowcase{
+    margin:40px;
+    margin-bottom:60px;
+}
+
+.projectShowcase h3{
+    margin-bottom:30px;
+    
+}
+
+.titleLinks{
+    text-decoration:none;
+    color:white;
+
+}
+.titleLinks:hover{
+    color:gold;
+}
+
+.imageContainer{
+    margin:20px;
+    padding:10px;
+    display:flex;
+    width:600px;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+    background: -webkit-linear-gradient(#9c9595, #b8b6b6);
+    border: 10px solid gray;
+}
+
+.imageContainer p{
+    padding:10px;
+    font-size:0.8em;
+    color:black;
 }
