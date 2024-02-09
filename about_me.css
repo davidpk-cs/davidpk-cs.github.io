@@ -1,0 +1,11 @@
+#aboutMeTitle{
+
+    color:white;
+    text-align:center;
+    font-weight: bold;
+    
+    background: -webkit-linear-gradient(#eee, #82cad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
