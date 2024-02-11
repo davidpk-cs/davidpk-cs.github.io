@@ -11,13 +11,13 @@
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-<script src="aboutScript.js"></script>
+<script src="workScript.js"></script>
 
 </head>
 
-<body style="background-color:rgb(19, 49, 59);">
+<body style="background-color:rgb(192, 213, 219);">
 
-    <div class="container shadow p-3 mb-5 rounded menuBar">
+    <div class="container shadow p-3 mb-5 rounded menuBar" id="workMenuBar">
         <a class="menuAnchor" href="davidpk-cs.github.io"><h3 class="menuLink">Home</h3></a>
         <a class="menuAnchor" href="david-about.html"><h3 class="menuLink">About Me</h3></a>
         <a class="menuAnchor" href="david-education.html"><h3 class="menuLink">Education</h3></a>
@@ -25,14 +25,53 @@
         <a class="menuAnchor" href="david-projects.html"><h3 class="menuLink">Projects</h3></a>
     </div>
 
-    <h3 style="margin:50px; margin-bottom:0px; text-align:center; color:rgb(255, 255, 255);">
-        This Page Was Just Made! Until it is updated, please look at my employment history on my Linkedin page
-    </h3>
+    <div id="workBody">
 
-    <div style="display:flex; justify-content:center">
-        <a href="https://www.linkedin.com/in/david-premkumar-622291214/">
-        <button id="mainPageExploreButton">Linkedin</button>
-        </a>
+        <div id="jobSelect">
+
+            <button class="imgSelectButton" onClick="changeJob(1)">
+                <img src="UMBC logo.jpg" style="height:60px;width:60px;">
+            </button>
+    
+            <button class="imgSelectButton" onClick="changeJob(2)">
+                <img src="black rocket logo.jpg" style="height:60px;width:60px;">
+            </button>
+    
+            <button class="imgSelectButton" onClick="changeJob(3)">
+                <img src="chick-fil-a logo.png" style="height:60px;width:60px;">
+            </button>
+    
+            <button class="imgSelectButton" onClick="changeJob(4)">
+                <img src="mncppc logo.webp"  style="height:60px;width:60px;">
+            </button>
+    
+        </div>
+    
+        <div id="jobInfo">
+    
+            <h2>Teaching Fellow</h2>
+            <h5>UMBC</h5>
+            <h5>Fall 2022 - Present</h5>
+    
+            <p>Every semester since the fall of 2022, I've been a part of the course staff for CMSC 201, UMBC's introductory computer science class, at UMBC. 
+                My job there has several responsibilities. First of all, I'm responsible for a 1 hour lab section (consisting of 20 students). In these labs,
+                I briefly cover the relevant material and then facilitate an exercise and grade students for their work on the problem. Next, I'm responsible for
+                being present 3 hours a week of office hours. Here I help students with assignments, pointing them in the right direction when they don't know how
+                to approach a problem or project. The final big responsiblity I have as a teaching fellow is grading most of the assignments of my lab section. This
+                includes their homeworks and projects. In addition, I may have some other responsibilities, such as exam proctoring/grading or responding to student emails.
+            </p>
+    
+            <p>
+                Being a teaching fellow as been very enjoyable and rewarding. The students taking CMSC201 enter the course with varying degrees of experience. Some are already 
+                prepared for more advanced courses, others are completely new to programming. As a result I've had to develop my ability to take tricky concepts explain them in an
+                easy-to-understand manner. As a result I've gotten a lot better at presenting things in all aspects of life. 
+            </p>
+    
+        </div>
+
+
     </div>
+
+    
 </body>
 
